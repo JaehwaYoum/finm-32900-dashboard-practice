@@ -8,23 +8,27 @@ DATA_DIR = Path(config.DATA_DIR)
 fred_series_long_names = {
     "BAMLH0A0HYM2": "ICE BofA US High Yield Index Option-Adjusted Spread",
     "NASDAQCOM": "NASDAQ Composite Index",
+    "SP500" : "S&P 500 Index",
+    "DJIA" : "S&P Dow Jones Industrial Average",
     "RIFSPPFAAD90NB": "90-Day AA Financial Commercial Paper Interest Rate",
     "DTB3": " 3-Month Treasury Bill Secondary Market Rate, Discount Basis",
     "DGS10": "Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity",
     "T10Y2Y": "10-Year Treasury Constant Maturity Minus 2-Year Treasury Constant Maturity",
     "VIXCLS": "CBOE Volatility Index: VIX",
-    # "GDP": "Gross Domestic Product",
+    "GDP": "Gross Domestic Product",
 }
 
 fred_series_short_names = {
     "BAMLH0A0HYM2": "High Yield Index OAS",
     "NASDAQCOM": "NASDAQ",
+    "SP500" : "S&P 500",
+    "DJIA" : "Dow Jones Industrial Average",
     "RIFSPPFAAD90NB": "90-Day AA Fin CP",
     "DTB3": "3-Month T-Bill",
     "DGS10": "10-Year Treasury",
     "T10Y2Y": "10Y-2Y Spread",
     "VIXCLS": "VIX",
-    # "GDP": "GDP",
+    "GDP": "GDP",
 }
 
 
